@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STORAGE_CORE", "STORAGE_CORE\STORAGE_CORE.csproj", "{CFDA2613-D76A-428E-8509-DA33EA815D06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFDA2613-D76A-428E-8509-DA33EA815D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDA2613-D76A-428E-8509-DA33EA815D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDA2613-D76A-428E-8509-DA33EA815D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDA2613-D76A-428E-8509-DA33EA815D06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE6C0265-4569-454D-A1C1-77B9837973A0}
+	EndGlobalSection
+EndGlobal

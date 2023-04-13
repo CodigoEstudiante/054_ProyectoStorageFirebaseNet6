@@ -1,0 +1,30 @@
+﻿@model EmpleadoModel
+@{
+    ViewData["Title"] = "Crear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="card">
+  <div class="card-header bg-dark text-white">
+    Crear Empleado
+  </div>
+  <div class="card-body">
+      <form asp-action="Crear" asp-controller="Empleado" method="post" enctype="multipart/form-data">
+          <div class="mb-3">
+            <label  class="form-label">Nombre</label>
+            <input type="text" class="form-control" asp-for="Nombre" autocomplete="off">
+          </div>
+          <div class="mb-3">
+            <label  class="form-label">Telefono</label>
+            <input type="text" class="form-control" asp-for="Telefono" autocomplete="off">
+          </div>
+         <div class="mb-3">
+            <input type="file" class="form-control" name="Imagen">
+          </div>
+          <button type="submit" class="btn btn-primary">Guardar</button>
+          <a asp-action="Index" asp-controller="Empleado" class="btn btn-warning">Volver a lista</a>
+        </form>
+  </div>
+</div>
